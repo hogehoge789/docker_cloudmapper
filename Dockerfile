@@ -22,7 +22,7 @@ RUN set -x && \
 #    ./collect_data.sh --account aws_account_1 && \
 #    python cloudmapper.py prepare --account aws_account_1
 
-#ENTRYPOINT [ "python cloudmapper.py webserve --public --port 8080"  ]
+#ENTRYPOINT [ "python cloudmapper.py webserver --public --port 8080"  ]
 
 CMD [ "/bin/bash"]
 
